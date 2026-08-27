@@ -9,5 +9,7 @@
   "files.exclude": {
     "**/.DS_Store": true,
     "site": true
-  }
+  },
+  "workbench.preferredLightColorTheme": "Monokai",
+  "workbench.preferredHighContrastColorTheme": "Monokai Dimmed"
 }
