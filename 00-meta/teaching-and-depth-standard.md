@@ -2,7 +2,9 @@
 
 ## Goal
 
-Every page should leave the reader with a usable mental model, not merely exposure to terminology. Concision means removing low-value words—not removing causal explanation.
+Every page should leave the reader with a usable mental model, not merely exposure to terminology. Concision means removing low-value words, not removing causal explanation.
+
+Repository prose uses standard left-aligned Markdown so it remains readable on GitHub, phones, editors, and the local documentation site. Do not force paragraph justification with HTML. Avoid em dashes; choose a full stop, colon, comma, or parentheses according to the relationship between the ideas.
 
 ## The explanation ladder
 
@@ -25,7 +27,7 @@ Useful simplifications must be labelled and then refined.
 Examples:
 
 - A bit can be introduced as two distinguishable states, often written `0` and `1`; physical implementations use voltage ranges and tolerate noise rather than requiring a perfect literal switch.
-- Eight bits form a byte on modern general-purpose systems, but a byte is a unit of addressable storage—not a universal guarantee about every data type.
+- Eight bits form a byte on modern general-purpose systems, but a byte is a unit of addressable storage, not a universal guarantee about every data type.
 - A C++ `int` is commonly four bytes, but the language standard does not require one universal size. Use `sizeof` or fixed-width integer types when representation matters.
 - A pointer stores an address. It enables indirection and efficient access patterns but also adds lifetime, ownership, locality, and safety concerns. It is not inherently a memory optimization.
 - A hash table gives expected constant-time lookup under suitable assumptions, but arrays, sorted vectors, trees, sparse sets, component storage, or databases can be better for cache locality, ordering, range queries, persistence, or scale.

@@ -12,9 +12,9 @@ This is not a link dump or a collection to finish. It is the map I use to decide
 
 ## Why I am building this
 
-My immediate goal is strong AI-native developer interview readiness by October 2026—not memorized definitions, but the ability to design a production system, trace a failure across layers, defend trade-offs, and say what evidence would change my decision.
+My immediate goal is strong AI-native developer interview readiness by October 2026. I am preparing to design production systems, trace failures across layers, defend trade-offs, and say what evidence would change my decision instead of memorizing definitions.
 
-My longer horizon connects full-stack engineering with C++ game development, Game AI research and a possible PhD in Japan. Japanese is a parallel long-term track. Keeping these goals in one atlas makes shared ideas—state, search, memory, uncertainty, distributed coordination, simulation, evaluation and human factors—visible instead of relearning them in isolation.
+My longer horizon connects full-stack engineering with C++ game development, Game AI research and a possible PhD in Japan. Japanese is a parallel long-term track. Keeping these goals in one atlas makes shared ideas (state, search, memory, uncertainty, distributed coordination, simulation, evaluation and human factors) visible instead of relearning them in isolation.
 
 The repository is evidence of a study process, not a substitute for shipped systems, experiments or credentials. Mastery must survive explanation, implementation, criticism and revision.
 
@@ -99,4 +99,4 @@ Then open `http://127.0.0.1:8000`. The repository also includes a focused [VS Co
 
 ## Licensing and contributions
 
-Original educational content is licensed under CC BY 4.0; code examples and scripts use the MIT License. Third-party sources retain their own terms. Corrections that improve accuracy, evidence, learning progression or failure analysis are welcome—see [LICENSE.md](LICENSE.md), [CONTRIBUTING.md](CONTRIBUTING.md) and the [source and copyright policy](00-meta/source-and-copyright-policy.md).
+Original educational content is licensed under CC BY 4.0; code examples and scripts use the MIT License. Third-party sources retain their own terms. Corrections that improve accuracy, evidence, learning progression or failure analysis are welcome. See [LICENSE.md](LICENSE.md), [CONTRIBUTING.md](CONTRIBUTING.md) and the [source and copyright policy](00-meta/source-and-copyright-policy.md).

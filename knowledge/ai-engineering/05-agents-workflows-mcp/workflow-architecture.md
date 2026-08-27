@@ -47,7 +47,7 @@ Parallelism reduces wall-clock latency only when tasks are truly independent and
 
 ### Orchestrator–worker
 
-A model or program creates subtasks, workers execute them, and an orchestrator integrates results. This fits tasks whose decomposition varies—such as investigating an unfamiliar repository.
+A model or program creates subtasks, workers execute them, and an orchestrator integrates results. This fits tasks whose decomposition varies, such as investigating an unfamiliar repository.
 
 The hard problem is not delegation. It is specifying interfaces and proving coverage. Workers may duplicate effort, omit a global constraint, or produce mutually inconsistent assumptions.
 

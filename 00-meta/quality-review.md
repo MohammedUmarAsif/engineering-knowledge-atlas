@@ -40,7 +40,7 @@ For every module, inspect:
 9. Mastery: do diagnostics and defenses test explanation and design rather than recall?
 10. Cognitive load: is repetition purposeful reinforcement rather than duplicated reading?
 
-## Review record — 2026-08-27
+## Review record: 2026-08-27
 
 The review performed while adding Production AI Operations found and repaired:
 
@@ -53,7 +53,7 @@ The review performed while adding Production AI Operations found and repaired:
 
 The conceptual progression was checked across Modules 02, 05, and 06. Module 02 introduces application-level reliability contracts; Module 05 applies them to autonomous state and effects; Module 06 develops the surrounding delivery, serving, observability, evaluation, cost, governance, and incident systems. Repeated concepts such as idempotency and fallback are retained because each module examines a different boundary.
 
-## Review record — Module 07: AI Security, Governance, and Red Teaming
+## Review record: Module 07: AI Security, Governance, and Red Teaming
 
 The Module 07 review checked both technical correctness and learning safety:
 
@@ -68,7 +68,7 @@ The Module 07 review checked both technical correctness and learning safety:
 
 The module was checked against NIST AI RMF and adversarial-ML guidance, MITRE ATLAS, the OWASP 2026 GenAI and agentic risk lists, ISO/IEC 42001, and official EU AI Act implementation material current on 2026-08-27. These sources provide complementary lenses; none is treated as a complete assurance argument.
 
-## Review record — v0.1.1 presentation
+## Review record: v0.1.1 presentation
 
 The recruiter-facing presentation review applied the same evidence discipline used inside the modules:
 
@@ -81,6 +81,10 @@ The recruiter-facing presentation review applied the same evidence discipline us
 - L0–L5 labels describe the demanded reasoning rather than claiming that every page is graduate or PhD level;
 - badges are limited to validation, release, licensing and review currency.
 - CI actions are pinned to reviewed release commits, and the validation badge now covers repository structure, executed Python examples, C++20 syntax compilation and a strict documentation build.
+
+## Review record: writing presentation
+
+The repository uses standard left-aligned Markdown because it renders consistently across GitHub, narrow screens, editors, and the local documentation site. HTML-based paragraph justification was rejected as brittle and harder to maintain. Em dashes were replaced with context-specific punctuation across the maintained text, then reviewed for sentences where a mechanical replacement weakened grammar. The repository validator now prevents both styles from returning unnoticed.
 
 ## Review discipline
 

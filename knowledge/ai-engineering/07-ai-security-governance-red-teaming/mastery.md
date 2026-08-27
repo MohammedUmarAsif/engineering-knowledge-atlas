@@ -80,4 +80,4 @@ Your defense must include:
 
 ## Pass criterion
 
-You pass when you can convert broad risk language into a specific, testable, owned assurance argument—and explain honestly what remains uncertain.
+You pass when you can convert broad risk language into a specific, testable, owned assurance argument and explain honestly what remains uncertain.

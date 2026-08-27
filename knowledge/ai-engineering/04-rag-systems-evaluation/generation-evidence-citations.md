@@ -17,7 +17,7 @@ The generator should receive evidence as addressable records, not anonymous pros
 source_id, document_version, page/region, authority, effective_date, content
 ```
 
-The application—not the model—resolves source IDs into links and checks access.
+The application (not the model) resolves source IDs into links and checks access.
 
 ## Claim discipline
 

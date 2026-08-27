@@ -15,7 +15,7 @@ AI assurance is the disciplined production of evidence that a particular system,
 
 A “safe model” does not imply a safe product. Security and harm emerge from the model’s data, instructions, interfaces, authority, environment, users, operators, and failure handling.
 
-## Diagnostic — skip only if every distinction is defensible
+## Diagnostic: skip only if every distinction is defensible
 
 1. Separate security, safety, privacy, reliability, ethics, governance, and compliance.
 2. Define asset, threat actor, vulnerability, threat, risk, control, residual risk, and assurance evidence.
@@ -65,4 +65,4 @@ The loop restarts when the model, data, tools, users, law, threat landscape, or 
 
 ## Safe-use boundary
 
-Red-team material here is defensive and controlled. It teaches scoping, test design, measurement, and remediation—not instructions for attacking systems you do not own or have explicit authorization to assess.
+Red-team material here is defensive and controlled. It teaches scoping, test design, measurement, and remediation, not instructions for attacking systems you do not own or have explicit authorization to assess.

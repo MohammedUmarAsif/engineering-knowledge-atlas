@@ -16,7 +16,7 @@ Build the minimum correct mental model needed to reason about modern AI applicat
 
 Basic programming, functions, vectors, probability, HTTP APIs, and databases. These are diagnosed rather than retaught here.
 
-## Diagnostic — skip only if you can answer all of these aloud
+## Diagnostic: skip only if you can answer all of these aloud
 
 1. Why does a language model generate one token at a time rather than retrieve a stored sentence?
 2. What does a context window contain, and what does it not change about the model?

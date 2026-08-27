@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve the Engineering Knowledge Atlas. Contributions should make the learning system more accurate, navigable, current, or useful—not merely larger.
+Thank you for helping improve the Engineering Knowledge Atlas. Contributions should make the learning system more accurate, navigable, current, or useful, not merely larger.
 
 ## Good contributions
 

@@ -14,7 +14,7 @@ Skip to [Embeddings](embeddings.md) if you can explain tokenization, context lim
 
 ## Mental model
 
-A language model repeatedly estimates a probability distribution over the next token, selects a token according to the decoding strategy, appends it, and repeats. Tokens are model-specific units—not reliably words, characters, or semantic concepts.
+A language model repeatedly estimates a probability distribution over the next token, selects a token according to the decoding strategy, appends it, and repeats. Tokens are model-specific units, not reliably words, characters, or semantic concepts.
 
 ## Context
 

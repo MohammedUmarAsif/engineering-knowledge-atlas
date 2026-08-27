@@ -29,7 +29,7 @@ Retrieval and generation across text, page images, diagrams, audio, video, and s
 
 ### Retrieval for agents
 
-Agents retrieve not only facts but instructions, tools, prior trajectories, and memories. Relevance must include action utility, safety, recency, and user intent—not semantic similarity alone.
+Agents retrieve not only facts but instructions, tools, prior trajectories, and memories. Relevance must include action utility, safety, recency, and user intent, not semantic similarity alone.
 
 ### Continual and temporal RAG
 
@@ -51,7 +51,7 @@ Key tension: rigid retrieval may reduce creativity; loose retrieval may violate 
 
 ### Player-adaptive teaching
 
-Retrieve similar player mistakes, tutorial interventions, or demonstrations. Evaluate learning, frustration, retention, and fairness—not only immediate success.
+Retrieve similar player mistakes, tutorial interventions, or demonstrations. Evaluate learning, frustration, retention, and fairness, not only immediate success.
 
 ### Multimodal game-state retrieval
 

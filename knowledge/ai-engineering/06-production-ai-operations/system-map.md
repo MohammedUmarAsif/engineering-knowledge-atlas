@@ -88,7 +88,7 @@ Examples:
 - Every charged generation maps to a trace and product feature.
 - Cancellation prevents unstarted effects.
 - A rollout can be halted without shipping new code.
-- When evidence is insufficient, the system abstains or asks—not fabricates.
+- When evidence is insufficient, the system abstains or asks a question instead of fabricating.
 
 Metrics observe invariants imperfectly; runtime checks enforce those that can be enforced.
 

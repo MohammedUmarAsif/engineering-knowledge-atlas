@@ -47,7 +47,7 @@ Use the lowest rung that meets the requirement:
 
 Each rung increases the reachable state space. More paths can solve unusual cases, but more paths can also fail, cost money, leak data, or become impossible to reproduce.
 
-## Why loops help—and hurt
+## Why loops help: and hurt
 
 A single inference cannot observe the consequence of an action. A loop can:
 

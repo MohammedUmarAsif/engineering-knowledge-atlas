@@ -11,7 +11,7 @@ prerequisites: [ai-assurance-foundations, production-system-map]
 
 ## Begin with the system diagram
 
-Threat modeling is structured reasoning about what can go wrong, who can cause it, how, why it matters, and which evidence supports controls. Start from the real data/control-flow diagram—not a generic list of AI risks.
+Threat modeling is structured reasoning about what can go wrong, who can cause it, how, why it matters, and which evidence supports controls. Start from the real data/control-flow diagram, not a generic list of AI risks.
 
 Mark:
 

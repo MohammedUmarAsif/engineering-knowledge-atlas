@@ -59,7 +59,7 @@ One corpus may have several synchronized indexes:
 - graph or relationship index;
 - page-image multi-vector index.
 
-The source document registry—not a vector index—should own document lifecycle truth.
+The source document registry (not a vector index) should own document lifecycle truth.
 
 ## Updates and deletion
 

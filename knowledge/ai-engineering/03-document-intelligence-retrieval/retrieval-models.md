@@ -31,7 +31,7 @@ An encoder maps query and document into vectors; similarity ranks candidates.
 
 Strong for semantic paraphrases and conceptual similarity. Weak for exactness, domain shift, numerical distinctions, or concepts collapsed by the representation.
 
-Cosine similarity is geometry produced by a model—not a calibrated probability of relevance or correctness.
+Cosine similarity is geometry produced by a model, not a calibrated probability of relevance or correctness.
 
 ## Sparse learned retrieval
 
@@ -82,7 +82,7 @@ Do not evaluate an ANN index using only end-answer quality; generator behavior c
 
 - **Full stack:** search is a product with relevance, freshness, permissions, and latency requirements.
 - **Games:** entity lookup, spatial indexes, asset registries, and matchmaking demonstrate the same lesson: choose a data structure based on access pattern, not fashionable complexity.
-- **Game AI research:** retrieval can support long-term agent memory, case-based reasoning, lore consistency, adaptive dialogue, or similarity search over trajectories—but relevance evaluation is domain-specific.
+- **Game AI research:** retrieval can support long-term agent memory, case-based reasoning, lore consistency, adaptive dialogue, or similarity search over trajectories, but relevance evaluation is domain-specific.
 
 ## Interview scenario
 

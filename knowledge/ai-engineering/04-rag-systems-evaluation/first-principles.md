@@ -64,7 +64,7 @@ Correct evidence is present but ignored, distorted, or supplemented with unsuppo
 
 ### Citation failure
 
-The answer is correct but citations do not actually support its claims—or are fabricated.
+The answer may be correct even though its citations do not support the claims. The citations may also be fabricated.
 
 ### Product failure
 

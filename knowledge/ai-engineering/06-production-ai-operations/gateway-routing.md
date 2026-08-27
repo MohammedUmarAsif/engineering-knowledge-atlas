@@ -13,7 +13,7 @@ prerequisites: [ai-delivery-release]
 
 Applications need a stable internal contract while model providers, credentials, quotas, APIs, prices, and capabilities change. A gateway can centralize authentication, routing, quotas, telemetry, redaction, caching, and provider adaptation.
 
-It also becomes a high-blast-radius dependency. A gateway is justified by shared policy and operational leverage—not merely a universal-looking endpoint.
+It also becomes a high-blast-radius dependency. A gateway is justified by shared policy and operational leverage, not merely a universal-looking endpoint.
 
 ## Request policy
 

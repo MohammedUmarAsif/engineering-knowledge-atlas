@@ -57,7 +57,7 @@ Record separately:
 6. Monitoring detected it.
 7. Response contained and recovered.
 
-This prevents a blocked model proposal from being reported as a catastrophic breach—or a successful harmful effect from being hidden by average refusal scores.
+This prevents a blocked model proposal from being reported as a catastrophic breach, or a successful harmful effect from being hidden by average refusal scores.
 
 ## Test corpus
 
@@ -85,7 +85,7 @@ Automated tools improve breadth, regression, and repeatability. Human testers re
 
 A finding should include title, severity rationale, affected asset, prerequisites, safe reproduction, observed evidence, impact, violated invariant, causal control gap, remediation options, residual risk, owner, and retest result.
 
-Rank by demonstrated or plausible impact under explicit assumptions—not by how dramatic generated text appears.
+Rank by demonstrated or plausible impact under explicit assumptions, not by how dramatic generated text appears.
 
 ## Purple teaming
 

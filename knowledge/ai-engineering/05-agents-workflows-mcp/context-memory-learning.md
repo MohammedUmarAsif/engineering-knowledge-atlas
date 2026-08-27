@@ -52,7 +52,7 @@ Long raw histories increase cost and can bury constraints. Summaries save space 
 
 ## Retrieval for agents
 
-Agent retrieval differs from question-answering retrieval. The needed item may be a past failed action, a tool precondition, a policy exception, or a partially completed artifact—not just text similar to the user’s latest sentence.
+Agent retrieval differs from question-answering retrieval. The needed item may be a past failed action, a tool precondition, a policy exception, or a partially completed artifact, not just text similar to the user’s latest sentence.
 
 Retrieval keys can include goal, current state, entity IDs, time, failure type, tool, and causal relation. Evaluate whether retrieved memory changes decisions correctly, not merely whether it resembles a reference passage.
 
@@ -89,7 +89,7 @@ Memory growth without deletion degrades retrieval, increases privacy risk, and m
 
 ## Game AI transfer
 
-Separate what the world knows, what the player has revealed, what an NPC observed, and what an NPC merely believes. Memory can support believable character continuity, but perfect recall may make characters unnatural. Designed forgetting, rumor propagation, and biased belief can improve narrative—provided canonical simulation state remains separate.
+Separate what the world knows, what the player has revealed, what an NPC observed, and what an NPC merely believes. Memory can support believable character continuity, but perfect recall may make characters unnatural. Designed forgetting, rumor propagation, and biased belief can improve narrative, provided canonical simulation state remains separate.
 
 ## Research questions
 

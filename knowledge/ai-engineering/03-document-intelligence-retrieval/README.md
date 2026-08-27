@@ -15,7 +15,7 @@ A human opens a PDF and sees a heading, two columns, a table, a footnote, a char
 
 RAG cannot repair evidence destroyed during ingestion. Document intelligence begins before embeddings.
 
-## Diagnostic — skip only if you can answer all of these aloud
+## Diagnostic: skip only if you can answer all of these aloud
 
 1. Why is a PDF primarily a page-description format rather than a semantic document format?
 2. How do born-digital, scanned, and hybrid PDFs require different processing?

@@ -29,7 +29,7 @@ This is not a distributed rate limiter. It makes the policy mechanics visible be
 
 ## Why concurrency rather than requests per second?
 
-Inference requests occupy scarce memory and scheduling capacity for highly variable durations. A request-per-second limit can admit many long generations simultaneously. Concurrency is still incomplete—token and memory estimates improve it—but it maps more directly to occupied work.
+Inference requests occupy scarce memory and scheduling capacity for highly variable durations. A request-per-second limit can admit many long generations simultaneously. Concurrency is still incomplete (token and memory estimates improve it) but it maps more directly to occupied work.
 
 ## Python versus C++
 

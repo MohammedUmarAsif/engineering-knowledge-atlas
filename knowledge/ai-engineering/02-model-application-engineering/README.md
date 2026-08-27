@@ -17,7 +17,7 @@ Learn to turn a probabilistic model into a dependable product component. The mod
 
 Complete [AI-Native Foundations](../01-foundations/README.md), or pass its exit diagnostic.
 
-## Diagnostic — skip only if you can answer all of these aloud
+## Diagnostic: skip only if you can answer all of these aloud
 
 1. How would you isolate provider-specific request and response formats from domain logic?
 2. When should you use structured output rather than tool calling?

@@ -11,7 +11,7 @@ prerequisites: [ai-governance-security]
 
 ## Selection principle
 
-Choose tools after defining the operating problem, ownership, failure model, and exit strategy. GitHub stars indicate adoption interest—not fitness, security, or manageable complexity.
+Choose tools after defining the operating problem, ownership, failure model, and exit strategy. GitHub stars indicate adoption interest, not fitness, security, or manageable complexity.
 
 ## Reliability and telemetry
 
@@ -43,7 +43,7 @@ Choose tools after defining the operating problem, ownership, failure model, and
 
 ## Delivery and policy
 
-- [Kubernetes](https://github.com/kubernetes/kubernetes): orchestration platform. Adopt when organizational scale justifies operating it—not because AI uses GPUs.
+- [Kubernetes](https://github.com/kubernetes/kubernetes): orchestration platform. Adopt when organizational scale justifies operating it, not because AI uses GPUs.
 - [Argo CD](https://github.com/argoproj/argo-cd) and [Argo Rollouts](https://github.com/argoproj/argo-rollouts): GitOps delivery and progressive rollout patterns.
 - [Open Policy Agent](https://github.com/open-policy-agent/opa): policy-as-code for deterministic authorization/validation decisions.
 - [Sigstore](https://github.com/sigstore/cosign): artifact signing and verification in software supply chains.
@@ -57,4 +57,4 @@ Choose tools after defining the operating problem, ownership, failure model, and
 
 ## Repository review checklist
 
-Inspect releases, license, security policy, governance, dependency and image provenance, upgrade path, conformance tests, failure semantics, observability, benchmarks, production adopters, and operational burden. Then run a failure-oriented proof of concept—not only a happy-path quickstart.
+Inspect releases, license, security policy, governance, dependency and image provenance, upgrade path, conformance tests, failure semantics, observability, benchmarks, production adopters, and operational burden. Then run a failure-oriented proof of concept, not only a happy-path quickstart.

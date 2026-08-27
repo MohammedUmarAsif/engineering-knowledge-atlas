@@ -4,7 +4,7 @@ Copyright (c) 2026 Mohammed Umar Asif Sayed.
 
 This repository uses two licenses so that educational writing receives clear attribution while code remains easy to reuse.
 
-## Educational content — CC BY 4.0
+## Educational content: CC BY 4.0
 
 Unless a file says otherwise, original Markdown documentation, diagrams, curricula, notes, and other non-code content in this repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode) (`CC-BY-4.0`).
 
@@ -14,7 +14,7 @@ Suggested attribution:
 
 > Engineering Knowledge Atlas by Mohammed Umar Asif Sayed, licensed under CC BY 4.0. Source: https://github.com/MohammedUmarAsif/engineering-knowledge-atlas
 
-## Code — MIT
+## Code: MIT
 
 Code in `examples/` and `scripts/`, and code expressly identified as reusable source code, is licensed under the MIT License:
 

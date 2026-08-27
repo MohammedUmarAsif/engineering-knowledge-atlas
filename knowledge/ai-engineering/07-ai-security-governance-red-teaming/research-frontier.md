@@ -52,7 +52,7 @@ Traditional certification assumes a reasonably stable object. AI services may ch
 
 **Question:** How can a system preserve open-ended expression while containing injection, harassment, and manipulation?
 
-Measure false positives across languages and communities, player agency, harmful effects, and moderator workload—not only detector accuracy.
+Measure false positives across languages and communities, player agency, harmful effects, and moderator workload, not only detector accuracy.
 
 ### Persistent social agents
 
@@ -76,7 +76,7 @@ Keep authoritative economy deterministic; simulate agent proposals under adversa
 
 **Question:** Does transparent disclosure of AI-driven characters calibrate player trust differently from seamless presentation, and how does that interact with narrative immersion?
 
-Measure understanding, trust calibration, enjoyment, disclosure recall, and behavior—not self-report alone.
+Measure understanding, trust calibration, enjoyment, disclosure recall, and behavior, not self-report alone.
 
 ## PhD experiment template
 

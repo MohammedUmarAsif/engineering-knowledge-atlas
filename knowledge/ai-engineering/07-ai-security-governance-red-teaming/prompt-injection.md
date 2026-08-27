@@ -81,7 +81,7 @@ Measure:
 
 - Attack task success.
 - Unauthorized proposal rate.
-- Unauthorized execution rate—the critical boundary.
+- Unauthorized execution rate: the critical boundary.
 - Benign-task degradation.
 - Detection and approval behavior.
 - Cost and latency.

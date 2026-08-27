@@ -5,7 +5,7 @@
 
 ## Reading sequence
 
-### Stage 1 — Mental models
+### Stage 1: Mental models
 
 - [AI-Native Foundations](knowledge/ai-engineering/01-foundations/README.md)
 - [Tokens and Context](knowledge/ai-engineering/01-foundations/tokens-and-context.md)
@@ -14,7 +14,7 @@
 - [Inference and Generation](knowledge/ai-engineering/01-foundations/inference.md)
 - [Limitations and Failure Modes](knowledge/ai-engineering/01-foundations/failure-modes.md)
 
-### Stage 2 — Application engineering
+### Stage 2: Application engineering
 
 - [Model Application Engineering](knowledge/ai-engineering/02-model-application-engineering/README.md)
 - [API architecture and model selection](knowledge/ai-engineering/02-model-application-engineering/api-architecture.md)
@@ -26,7 +26,7 @@
 - [Reliability, security, and operations](knowledge/ai-engineering/02-model-application-engineering/reliability-security-operations.md)
 - [Mastery review](knowledge/ai-engineering/02-model-application-engineering/mastery.md)
 
-### Stage 3 — Retrieval systems
+### Stage 3: Retrieval systems
 
 - [Document Intelligence and Retrieval](knowledge/ai-engineering/03-document-intelligence-retrieval/README.md)
 - [PDF to evidence](knowledge/ai-engineering/03-document-intelligence-retrieval/pdf-to-evidence.md)
@@ -40,7 +40,7 @@
 - [Python and C++ mechanics](knowledge/ai-engineering/03-document-intelligence-retrieval/implementation-patterns.md)
 - [Mastery review](knowledge/ai-engineering/03-document-intelligence-retrieval/mastery.md)
 
-### Stage 3.5 — RAG systems
+### Stage 3.5: RAG systems
 
 - [RAG Systems and Evaluation](knowledge/ai-engineering/04-rag-systems-evaluation/README.md)
 - First principles and alternatives
@@ -52,7 +52,7 @@
 - Research and Game AI transfer
 - Python and C++ implementation mechanics
 
-### Stage 4 — Agents and MCP
+### Stage 4: Agents and MCP
 
 - [Agents, Workflows, and MCP](knowledge/ai-engineering/05-agents-workflows-mcp/README.md)
 - Agency from first principles and the autonomy ladder
@@ -64,7 +64,7 @@
 - Evaluation, observability, authorization, and adversarial safety
 - Game AI research questions and Python/C++ implementation mechanics
 
-### Stage 5 — Production mastery
+### Stage 5: Production mastery
 
 - [Production AI Operations](knowledge/ai-engineering/06-production-ai-operations/README.md)
 - System boundaries and versioned behavior bundles
@@ -75,7 +75,7 @@
 - SLIs, SLOs, traces, continuous evaluation, and drift
 - Cost engineering, governance, incident response, and game live operations
 
-### Stage 6 — Security and assurance
+### Stage 6: Security and assurance
 
 - [AI Security, Governance, and Red Teaming](knowledge/ai-engineering/07-ai-security-governance-red-teaming/README.md)
 - Security, safety, privacy, ethics, governance, and compliance boundaries

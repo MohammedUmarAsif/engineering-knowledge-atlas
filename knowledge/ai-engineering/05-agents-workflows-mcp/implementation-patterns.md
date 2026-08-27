@@ -63,7 +63,7 @@ The internal `ToolSpec` resembles a discovered tool but is not an MCP implementa
 
 Keep application policy outside the adapter so changing protocols cannot bypass authority checks.
 
-## Exercises to think through—not necessarily run here
+## Exercises to think through: not necessarily run here
 
 1. Crash after the write tool commits but before state records success. How does the idempotency key help, and what remains unresolved?
 2. Add a deadline budget independent of step count.

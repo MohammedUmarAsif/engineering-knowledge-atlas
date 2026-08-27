@@ -30,7 +30,7 @@ ISO/IEC 42001 specifies requirements for establishing and continually improving 
 
 ## Inventory and classification
 
-Maintain systems—including unofficial “shadow AI”—with owner, purpose, affected users, model/provider, data, tools, autonomy, regions, risk tier, legal basis, evaluations, deployment, and review date.
+Maintain systems, including unofficial “shadow AI,” with owner, purpose, affected users, model/provider, data, tools, autonomy, regions, risk tier, legal basis, evaluations, deployment, and review date.
 
 Classification dimensions:
 
@@ -94,4 +94,4 @@ Reassess when intended use, model, data, population, autonomy, region, provider,
 
 ## Research transfer
 
-For a PhD study involving players, governance includes ethics review, consent, recruitment fairness, data minimization, preregistration where useful, adverse-event handling, withdrawal, reproducibility, and honest reporting—not only institutional paperwork.
+For a PhD study involving players, governance includes ethics review, consent, recruitment fairness, data minimization, preregistration where useful, adverse-event handling, withdrawal, reproducibility, and honest reporting, not only institutional paperwork.

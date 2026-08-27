@@ -15,7 +15,7 @@ Retrieval-augmented generation combines a generator's parametric capability with
 
 RAG does not make a model truthful. It creates an evidence path that can be engineered and evaluated.
 
-## Diagnostic — skip only if you can answer all of these aloud
+## Diagnostic: skip only if you can answer all of these aloud
 
 1. What is parametric versus non-parametric memory in the original RAG formulation?
 2. When should a product use search without generation, long context, tools, fine-tuning, or a database query instead of RAG?

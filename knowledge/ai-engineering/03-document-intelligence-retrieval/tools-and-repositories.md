@@ -54,7 +54,7 @@ GitHub stars below are approximate discovery snapshots checked on 2026-08-27. Th
 
 - Role: dedicated vector search/database with filtering and hybrid-search features.
 - Signals: approximately 33k stars; Apache-2.0; Rust; active clients and operations ecosystem.
-- Learn from it: production vector search includes filtering, sharding, persistence, APIs, and operations—not only nearest-neighbour math.
+- Learn from it: production vector search includes filtering, sharding, persistence, APIs, and operations, not only nearest-neighbour math.
 
 ## Evaluation and emerging retrieval
 

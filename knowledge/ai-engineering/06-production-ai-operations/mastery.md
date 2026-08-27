@@ -82,4 +82,4 @@ Operate generated companion dialogue for a global live game. Address frame indep
 
 ## Pass criterion
 
-You pass when you can show how the service stays useful, safe, explainable, and economically sustainable under change—not merely how it runs during a demo.
+You pass when you can show how the service stays useful, safe, explainable, and economically sustainable under change, not merely how it runs during a demo.

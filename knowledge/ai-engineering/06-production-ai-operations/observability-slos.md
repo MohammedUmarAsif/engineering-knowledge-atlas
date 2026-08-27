@@ -74,7 +74,7 @@ Useful examples:
 - Cross-tenant policy check fires once.
 - Fallback route grows while primary appears superficially healthy.
 
-Avoid paging on every model-provider 500 if retries hide all user impact—unless the pattern threatens imminent exhaustion.
+Avoid paging on every model-provider 500 if retries hide all user impact, unless the pattern threatens imminent exhaustion.
 
 ## Structured event minimum
 

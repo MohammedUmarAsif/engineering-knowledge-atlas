@@ -36,7 +36,7 @@ Compare adaptive policies against transparent rules under matched cost and safet
 
 Real workloads mix long and short contexts, interactive and batch deadlines, adapters, modalities, and priority classes. Scheduling can optimize throughput while creating unfair tails.
 
-Study Pareto frontiers across quality, TTFT, throughput, energy, cost, fairness, and availability—not one throughput maximum.
+Study Pareto frontiers across quality, TTFT, throughput, energy, cost, fairness, and availability, not one throughput maximum.
 
 ## Evaluation under change
 

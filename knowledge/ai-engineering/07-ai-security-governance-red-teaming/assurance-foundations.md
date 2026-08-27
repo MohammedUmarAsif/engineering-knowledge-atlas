@@ -23,7 +23,7 @@ The categories overlap without collapsing. A perfectly available surveillance sy
 
 ## Core vocabulary
 
-- Asset: something valuable—data, identity, money, model, service, trust, player experience.
+- Asset: something valuable, such as data, identity, money, a model, a service, trust, or player experience.
 - Threat actor: entity capable of causing harm, intentionally or accidentally.
 - Vulnerability: weakness that can be exploited or triggered.
 - Threat: plausible event or action capable of harm.
@@ -69,7 +69,7 @@ Controls differ. Better accuracy may worsen misuse capability. A moderation mode
 
 ## Sociotechnical boundary
 
-People adapt to systems. Operators may overtrust fluent output, users may learn to game decisions, reviewers may experience fatigue, and organizations may route around slow controls. Assurance must examine incentives, interfaces, training, staffing, appeals, and power—not only code.
+People adapt to systems. Operators may overtrust fluent output, users may learn to game decisions, reviewers may experience fatigue, and organizations may route around slow controls. Assurance must examine incentives, interfaces, training, staffing, appeals, and power, not only code.
 
 ## Game transfer
 

@@ -20,7 +20,7 @@ resources:
     checked: 2026-08-27
 
   - id: mit-6-5840-2026
-    title: 6.5840 Distributed Systems — Spring 2026
+    title: 6.5840 Distributed Systems (Spring 2026)
     organization: Massachusetts Institute of Technology
     type: university-course
     canonical_url: https://pdos.csail.mit.edu/6.5840/
@@ -610,7 +610,7 @@ resources:
     checked: 2026-08-27
 
   - id: nist-ai-100-2e2025
-    title: Adversarial Machine Learning — A Taxonomy and Terminology of Attacks and Mitigations
+    title: "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations"
     organization: NIST
     type: security-taxonomy
     canonical_url: https://doi.org/10.6028/NIST.AI.100-2e2025

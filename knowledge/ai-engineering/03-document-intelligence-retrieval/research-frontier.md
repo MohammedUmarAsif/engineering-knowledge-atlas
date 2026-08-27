@@ -45,7 +45,7 @@ Open questions:
 
 Parsing, OCR, chunking, retrieval, and generation each create uncertainty, but production pipelines rarely propagate it coherently.
 
-A valuable research direction is calibrated, inspectable uncertainty from page region to final claim—especially for legal, medical, historical, or multilingual documents.
+A valuable research direction is calibrated, inspectable uncertainty from page region to final claim, especially for legal, medical, historical, or multilingual documents.
 
 ## 5. Game and Game AI opportunities
 
@@ -63,7 +63,7 @@ Potential PhD questions:
 - How should an agent retrieve memories that are useful for both winning and believable behaviour?
 - Can visual late interaction retrieve strategically similar game states across different maps or art styles?
 - How should retrieval balance global narrative consistency with local player agency?
-- How can memory retrieval be evaluated for entertainment, learning, and perceived intelligence—not only task reward?
+- How can memory retrieval be evaluated for entertainment, learning, and perceived intelligence, not only task reward?
 
 These are research directions, not claims that retrieval automatically improves a game.
 

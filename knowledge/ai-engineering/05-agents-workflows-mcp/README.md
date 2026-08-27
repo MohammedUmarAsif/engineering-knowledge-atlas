@@ -15,7 +15,7 @@ An agent is not an intelligent object. It is a software control loop in which a 
 
 The model supplies probabilistic judgment. Code must still supply authority, invariants, budgets, persistence, validation, and accountability.
 
-## Diagnostic — skip only if you can defend every answer
+## Diagnostic: skip only if you can defend every answer
 
 1. Where exactly does control move from deterministic code to a model in an agent loop?
 2. When is one model call better than a workflow, and when is a workflow better than an agent?

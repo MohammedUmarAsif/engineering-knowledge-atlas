@@ -53,7 +53,7 @@ The right topology depends on model size, interconnect, request shape, and avail
 
 ## Quantization
 
-Lower-precision weights reduce memory and may increase throughput. Quality and kernel support vary by model, hardware, method, and workload. Evaluate system tasks, especially tool arguments, multilingual text, long context, and safety—not perplexity alone.
+Lower-precision weights reduce memory and may increase throughput. Quality and kernel support vary by model, hardware, method, and workload. Evaluate system tasks, especially tool arguments, multilingual text, long context, and safety, not perplexity alone.
 
 ## Autoscaling
 
@@ -85,6 +85,6 @@ Reject or defer work before memory exhaustion. Estimate cost from input length, 
 
 ## Managed versus self-hosted
 
-Managed APIs reduce infrastructure burden and can provide strong model access and elasticity. Self-hosting offers control over model, data path, hardware, and unit economics at sufficient scale—but transfers capacity, security, upgrades, and on-call ownership to your team.
+Managed APIs reduce infrastructure burden and can provide strong model access and elasticity. Self-hosting offers control over model, data path, hardware, and unit economics at sufficient scale, but transfers capacity, security, upgrades, and on-call ownership to your team.
 
 Compare total cost and operational capability, not GPU rental versus token price alone.

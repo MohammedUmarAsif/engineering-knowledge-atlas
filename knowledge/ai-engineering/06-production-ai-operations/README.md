@@ -11,11 +11,11 @@ prerequisites: [agents-workflows-mcp, model-application-reliability-security]
 
 ## First principle
 
-A model response is not a production service. Production is the continuing ability to deliver a user outcome within explicit quality, safety, latency, availability, and cost boundaries—even while traffic, dependencies, models, data, and software change.
+A model response is not a production service. Production is the continuing ability to deliver a user outcome within explicit quality, safety, latency, availability, and cost boundaries, even while traffic, dependencies, models, data, and software change.
 
 Operations is therefore part of system design, not work performed after deployment.
 
-## Diagnostic — skip only if every answer is precise
+## Diagnostic: skip only if every answer is precise
 
 1. Trace one AI request through edge, application, retrieval, model gateway, provider or inference server, tools, storage, and telemetry.
 2. Separate model, prompt, retrieval corpus, tool, policy, application, and infrastructure versions.
@@ -29,7 +29,7 @@ Operations is therefore part of system design, not work performed after deployme
 10. Design an SLI and SLO for an AI answer whose transport succeeds but answer quality fails.
 11. Which evaluation gates belong before merge, before deployment, during canary, and in production sampling?
 12. How do you detect model, data, prompt, retrieval, tool, and user-population drift separately?
-13. Allocate cost by tenant, feature, model, and successful outcome—not merely tokens.
+13. Allocate cost by tenant, feature, model, and successful outcome, not merely tokens.
 14. What should an AI incident runbook capture that an ordinary HTTP-service runbook may not?
 15. How do privacy, retention, auditability, and model-provider terms affect telemetry design?
 16. How would a live game degrade gracefully when dialogue inference or a remote model fails?

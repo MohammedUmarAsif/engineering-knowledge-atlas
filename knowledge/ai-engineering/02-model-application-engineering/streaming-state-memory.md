@@ -11,7 +11,7 @@ prerequisites: [tool-calling-and-side-effects]
 
 ## Diagnostic
 
-Skip to [Multimodal Applications](multimodal.md) if you can distinguish transcript, workflow state, provider state, cache, retrieval memory, and user profile—and define retention for each.
+Skip to [Multimodal Applications](multimodal.md) if you can distinguish transcript, workflow state, provider state, cache, retrieval memory, and user profile, and define retention for each.
 
 ## Streaming
 

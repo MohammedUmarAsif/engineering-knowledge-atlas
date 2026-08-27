@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate internal Markdown links and required module front matter."""
+"""Validate repository structure, links, metadata, and writing-style rules."""
 
 from __future__ import annotations
 
@@ -13,6 +13,11 @@ LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
 REQUIRED = ("id:", "title:", "level:", "status:", "last_reviewed:")
 ID = re.compile(r"^id:\s*(\S+)\s*$", re.MULTILINE)
 PREREQUISITES = re.compile(r"^prerequisites:\s*\[([^]]*)\]\s*$", re.MULTILINE)
+TEXT_SUFFIXES = {".md", ".yml", ".yaml", ".json", ".cff", ".py", ".cpp"}
+EM_DASH = chr(0x2014)
+JUSTIFIED_HTML = re.compile(
+    r"(?:text-align\s*:\s*justify|align\s*=\s*['\"]?justify)", re.IGNORECASE
+)
 
 
 def validate_links() -> list[str]:
@@ -126,12 +131,33 @@ def validate_navigation_and_manifests() -> list[str]:
     return failures
 
 
+def validate_writing_style() -> list[str]:
+    failures: list[str] = []
+    for path in ROOT.rglob("*"):
+        if not path.is_file() or ".git" in path.parts:
+            continue
+        if path.suffix not in TEXT_SUFFIXES and path.name != ".gitignore":
+            continue
+        text = path.read_text(encoding="utf-8")
+        for line_number, line in enumerate(text.splitlines(), start=1):
+            if EM_DASH in line:
+                failures.append(
+                    f"{path.relative_to(ROOT)}:{line_number}: em dash is disallowed"
+                )
+            if path.suffix == ".md" and JUSTIFIED_HTML.search(line):
+                failures.append(
+                    f"{path.relative_to(ROOT)}:{line_number}: justified HTML is disallowed"
+                )
+    return failures
+
+
 def main() -> int:
     failures = (
         validate_links()
         + validate_topic_metadata()
         + validate_topic_graph()
         + validate_navigation_and_manifests()
+        + validate_writing_style()
     )
     if failures:
         print("Validation failed:")
@@ -139,7 +165,10 @@ def main() -> int:
             print(f"- {failure}")
         return 1
     markdown_count = sum(1 for _ in ROOT.rglob("*.md"))
-    print(f"Validated {markdown_count} Markdown files: links and topic metadata OK")
+    print(
+        f"Validated {markdown_count} Markdown files: "
+        "structure, links, metadata, and style OK"
+    )
     return 0
 
 

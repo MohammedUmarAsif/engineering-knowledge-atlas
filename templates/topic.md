@@ -13,7 +13,7 @@ tags: []
 
 ## Purpose
 
-## Diagnostic — skip only if you can answer
+## Diagnostic: skip only if you can answer
 
 ## Skip to
 

@@ -30,7 +30,7 @@ This is time-sensitive and simplified. Verify the official regulation, Commissio
 
 ## Transparency is a system feature
 
-Relevant systems may need to tell users they interact with AI, label or machine-mark generated/manipulated content, communicate limitations, or preserve documentation. Implement disclosure consistently across UI, APIs, exports, and downstream content—not as one footer.
+Relevant systems may need to tell users they interact with AI, label or machine-mark generated/manipulated content, communicate limitations, or preserve documentation. Implement disclosure consistently across UI, APIs, exports, and downstream content, not as one footer.
 
 Disclosure does not cure an otherwise prohibited or harmful system.
 
