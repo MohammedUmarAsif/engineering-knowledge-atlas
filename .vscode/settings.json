@@ -1,0 +1,13 @@
+{
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 28,
+  "markdown.preview.breaks": false,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.validate.enabled": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "site": true
+  }
+}

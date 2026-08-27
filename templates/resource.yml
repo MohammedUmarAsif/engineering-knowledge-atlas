@@ -1,0 +1,13 @@
+id: unique-resource-id
+title: Resource title
+authors: []
+type: documentation
+publication_date: YYYY-MM-DD
+canonical_url: https://example.com
+license: unknown
+redistributable: false
+local_file: null
+sha256: null
+topics: []
+notes: null
+checked: YYYY-MM-DD

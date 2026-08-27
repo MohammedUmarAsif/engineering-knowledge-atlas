@@ -1,0 +1,148 @@
+site_name: Engineering Knowledge Atlas
+site_description: AI-native engineering, full-stack systems, games, Game AI research, and Japanese
+docs_dir: .
+exclude_docs: |
+  .github/
+  library/books/
+  library/papers/
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: README.md
+  - Start Here: START-HERE.md
+  - Current Focus: CURRENT-FOCUS.md
+  - Master Roadmap: MASTER-ROADMAP.md
+  - Reading Setup: 00-meta/vscode-reading-setup.md
+  - Curriculum Standard: 00-meta/curriculum-standard.md
+  - Language and Code Policy: 00-meta/language-and-code-policy.md
+  - Source and Copyright Policy: 00-meta/source-and-copyright-policy.md
+  - Teaching and Depth Standard: 00-meta/teaching-and-depth-standard.md
+  - Curriculum Quality Review: 00-meta/quality-review.md
+  - Personal Notes: notes/README.md
+  - Project:
+      - License: LICENSE.md
+      - Contributing: CONTRIBUTING.md
+      - Security: SECURITY.md
+  - AI-Native Developer:
+      - Pathway: pathways/01-ai-native-developer/README.md
+      - Foundations:
+          - Overview: knowledge/ai-engineering/01-foundations/README.md
+          - Tokens and Context: knowledge/ai-engineering/01-foundations/tokens-and-context.md
+          - Embeddings: knowledge/ai-engineering/01-foundations/embeddings.md
+          - Transformer Lifecycle: knowledge/ai-engineering/01-foundations/transformer-lifecycle.md
+          - Inference: knowledge/ai-engineering/01-foundations/inference.md
+          - Failure Modes: knowledge/ai-engineering/01-foundations/failure-modes.md
+          - Mastery Review: knowledge/ai-engineering/01-foundations/mastery.md
+          - Tools and Research: knowledge/ai-engineering/01-foundations/tools-and-research.md
+      - Model Application Engineering:
+          - Overview: knowledge/ai-engineering/02-model-application-engineering/README.md
+          - API Architecture: knowledge/ai-engineering/02-model-application-engineering/api-architecture.md
+          - Instructions and Context: knowledge/ai-engineering/02-model-application-engineering/instructions-and-context.md
+          - Structured Outputs: knowledge/ai-engineering/02-model-application-engineering/structured-outputs.md
+          - Tool Calling: knowledge/ai-engineering/02-model-application-engineering/tool-calling.md
+          - Streaming, State, and Memory: knowledge/ai-engineering/02-model-application-engineering/streaming-state-memory.md
+          - Multimodal Applications: knowledge/ai-engineering/02-model-application-engineering/multimodal.md
+          - Reliability, Security, and Operations: knowledge/ai-engineering/02-model-application-engineering/reliability-security-operations.md
+          - Mastery Review: knowledge/ai-engineering/02-model-application-engineering/mastery.md
+          - Python and C++ Patterns: knowledge/ai-engineering/02-model-application-engineering/implementation-patterns.md
+          - Tools and Research: knowledge/ai-engineering/02-model-application-engineering/tools-and-research.md
+      - Document Intelligence and Retrieval:
+          - Overview: knowledge/ai-engineering/03-document-intelligence-retrieval/README.md
+          - PDF to Evidence: knowledge/ai-engineering/03-document-intelligence-retrieval/pdf-to-evidence.md
+          - OCR, Layout, and Tables: knowledge/ai-engineering/03-document-intelligence-retrieval/ocr-layout-tables.md
+          - Chunking and Indexing: knowledge/ai-engineering/03-document-intelligence-retrieval/chunking-metadata-indexing.md
+          - Retrieval Models: knowledge/ai-engineering/03-document-intelligence-retrieval/retrieval-models.md
+          - Reranking and Context: knowledge/ai-engineering/03-document-intelligence-retrieval/reranking-context.md
+          - Evaluation and Operations: knowledge/ai-engineering/03-document-intelligence-retrieval/evaluation-security-operations.md
+          - Tools and Repositories: knowledge/ai-engineering/03-document-intelligence-retrieval/tools-and-repositories.md
+          - Research Frontier: knowledge/ai-engineering/03-document-intelligence-retrieval/research-frontier.md
+          - Python and C++ Mechanics: knowledge/ai-engineering/03-document-intelligence-retrieval/implementation-patterns.md
+          - Mastery Review: knowledge/ai-engineering/03-document-intelligence-retrieval/mastery.md
+      - RAG Systems and Evaluation:
+          - Overview: knowledge/ai-engineering/04-rag-systems-evaluation/README.md
+          - First Principles: knowledge/ai-engineering/04-rag-systems-evaluation/first-principles.md
+          - Query and Retrieval Orchestration: knowledge/ai-engineering/04-rag-systems-evaluation/query-retrieval-orchestration.md
+          - Advanced Patterns: knowledge/ai-engineering/04-rag-systems-evaluation/advanced-patterns.md
+          - Evidence and Citations: knowledge/ai-engineering/04-rag-systems-evaluation/generation-evidence-citations.md
+          - Evaluation Science: knowledge/ai-engineering/04-rag-systems-evaluation/evaluation-science.md
+          - Security and Production: knowledge/ai-engineering/04-rag-systems-evaluation/security-production.md
+          - Tools and Repositories: knowledge/ai-engineering/04-rag-systems-evaluation/tools-and-repositories.md
+          - Research Frontier: knowledge/ai-engineering/04-rag-systems-evaluation/research-frontier.md
+          - Python and C++ Mechanics: knowledge/ai-engineering/04-rag-systems-evaluation/implementation-patterns.md
+          - Mastery Review: knowledge/ai-engineering/04-rag-systems-evaluation/mastery.md
+      - Agents, Workflows, and MCP:
+          - Overview: knowledge/ai-engineering/05-agents-workflows-mcp/README.md
+          - First Principles: knowledge/ai-engineering/05-agents-workflows-mcp/first-principles.md
+          - Workflow Architecture: knowledge/ai-engineering/05-agents-workflows-mcp/workflow-architecture.md
+          - Agent Loops and Durable State: knowledge/ai-engineering/05-agents-workflows-mcp/agent-loop-state.md
+          - Tools and MCP: knowledge/ai-engineering/05-agents-workflows-mcp/tools-and-mcp.md
+          - Context, Memory, and Learning: knowledge/ai-engineering/05-agents-workflows-mcp/context-memory-learning.md
+          - Multi-Agent Systems: knowledge/ai-engineering/05-agents-workflows-mcp/multi-agent-systems.md
+          - Evaluation and Observability: knowledge/ai-engineering/05-agents-workflows-mcp/evaluation-observability.md
+          - Security and Production: knowledge/ai-engineering/05-agents-workflows-mcp/security-production.md
+          - Tools and Repositories: knowledge/ai-engineering/05-agents-workflows-mcp/tools-and-repositories.md
+          - Research Frontier: knowledge/ai-engineering/05-agents-workflows-mcp/research-frontier.md
+          - Python and C++ Mechanics: knowledge/ai-engineering/05-agents-workflows-mcp/implementation-patterns.md
+          - Mastery Defense: knowledge/ai-engineering/05-agents-workflows-mcp/mastery.md
+      - Production AI Operations:
+          - Overview: knowledge/ai-engineering/06-production-ai-operations/README.md
+          - Production System Map: knowledge/ai-engineering/06-production-ai-operations/system-map.md
+          - Delivery and Safe Release: knowledge/ai-engineering/06-production-ai-operations/delivery-release.md
+          - Gateways and Routing: knowledge/ai-engineering/06-production-ai-operations/gateway-routing.md
+          - Serving and Capacity: knowledge/ai-engineering/06-production-ai-operations/serving-capacity.md
+          - Queues and Backpressure: knowledge/ai-engineering/06-production-ai-operations/queues-backpressure.md
+          - Observability and SLOs: knowledge/ai-engineering/06-production-ai-operations/observability-slos.md
+          - Continuous Evaluation: knowledge/ai-engineering/06-production-ai-operations/continuous-evaluation.md
+          - Cost Engineering: knowledge/ai-engineering/06-production-ai-operations/cost-engineering.md
+          - Incidents and Resilience: knowledge/ai-engineering/06-production-ai-operations/incidents-resilience.md
+          - Governance and Security: knowledge/ai-engineering/06-production-ai-operations/governance-security.md
+          - Tools and Repositories: knowledge/ai-engineering/06-production-ai-operations/tools-and-repositories.md
+          - Research Frontier: knowledge/ai-engineering/06-production-ai-operations/research-frontier.md
+          - Python and C++ Mechanics: knowledge/ai-engineering/06-production-ai-operations/implementation-patterns.md
+          - Mastery Defense: knowledge/ai-engineering/06-production-ai-operations/mastery.md
+      - AI Security, Governance, and Red Teaming:
+          - Overview: knowledge/ai-engineering/07-ai-security-governance-red-teaming/README.md
+          - Assurance Foundations: knowledge/ai-engineering/07-ai-security-governance-red-teaming/assurance-foundations.md
+          - Threat Modeling: knowledge/ai-engineering/07-ai-security-governance-red-teaming/threat-modeling.md
+          - Prompt Injection: knowledge/ai-engineering/07-ai-security-governance-red-teaming/prompt-injection.md
+          - Data, Model, and Supply Chain: knowledge/ai-engineering/07-ai-security-governance-red-teaming/data-model-supply-chain.md
+          - Identity, Tools, and Sandboxes: knowledge/ai-engineering/07-ai-security-governance-red-teaming/identity-tools-sandboxing.md
+          - Privacy and Data Lifecycle: knowledge/ai-engineering/07-ai-security-governance-red-teaming/privacy-data-lifecycle.md
+          - Red Teaming: knowledge/ai-engineering/07-ai-security-governance-red-teaming/red-teaming.md
+          - Governance and Risk: knowledge/ai-engineering/07-ai-security-governance-red-teaming/governance-risk.md
+          - Standards and Regulation: knowledge/ai-engineering/07-ai-security-governance-red-teaming/standards-regulation.md
+          - Detection and Response: knowledge/ai-engineering/07-ai-security-governance-red-teaming/detection-response.md
+          - Tools and Repositories: knowledge/ai-engineering/07-ai-security-governance-red-teaming/tools-and-repositories.md
+          - Research Frontier: knowledge/ai-engineering/07-ai-security-governance-red-teaming/research-frontier.md
+          - Python and C++ Mechanics: knowledge/ai-engineering/07-ai-security-governance-red-teaming/implementation-patterns.md
+          - Mastery Defense: knowledge/ai-engineering/07-ai-security-governance-red-teaming/mastery.md
+  - Other Pathways:
+      - Full Stack: pathways/02-full-stack-engineer/README.md
+      - Game Development: pathways/03-game-development/README.md
+      - Game AI Research: pathways/04-game-ai-research/README.md
+      - Japanese: pathways/05-japanese/README.md
+  - Lenses:
+      - Senior Engineering: lenses/senior-engineering/README.md
+      - Production Readiness: lenses/production-readiness/README.md
+      - Interview Questions: lenses/interview-questions/README.md
+      - Research Criticism: lenses/research-criticism/README.md

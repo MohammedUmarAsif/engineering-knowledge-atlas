@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If this atlas helps your work, please cite it using this metadata."
+title: "Engineering Knowledge Atlas"
+type: dataset
+version: 0.1.0
+date-released: 2026-08-27
+authors:
+  - family-names: "Sayed"
+    given-names: "Mohammed Umar Asif"
+repository-code: "https://github.com/MohammedUmarAsif/engineering-knowledge-atlas"
+url: "https://github.com/MohammedUmarAsif/engineering-knowledge-atlas"
+license: "CC-BY-4.0"
+keywords:
+  - artificial intelligence
+  - software engineering
+  - full-stack development
+  - game development
+  - game AI
+  - research education

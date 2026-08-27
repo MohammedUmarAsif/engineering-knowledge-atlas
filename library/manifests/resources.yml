@@ -1,0 +1,643 @@
+resources:
+  - id: acm-cs2023
+    title: Computer Science Curricula 2023
+    organization: ACM/IEEE-CS/AAAI
+    type: curriculum-standard
+    canonical_url: https://csed.acm.org/final-report/
+    redistributable: false
+    local_file: null
+    topics: [curriculum, computer-science]
+    checked: 2026-08-27
+
+  - id: ieee-swebok-v4
+    title: Guide to the Software Engineering Body of Knowledge v4.0a
+    organization: IEEE Computer Society
+    type: body-of-knowledge
+    canonical_url: https://www.computer.org/education/bodies-of-knowledge/software-engineering
+    redistributable: false
+    local_file: null
+    topics: [software-engineering]
+    checked: 2026-08-27
+
+  - id: attention-is-all-you-need
+    title: Attention Is All You Need
+    type: paper
+    canonical_url: https://doi.org/10.48550/arXiv.1706.03762
+    redistributable: false
+    local_file: null
+    topics: [transformers, attention, llms]
+    checked: 2026-08-27
+
+  - id: json-schema-2020-12
+    title: JSON Schema Draft 2020-12
+    organization: JSON Schema
+    type: specification
+    canonical_url: https://json-schema.org/specification
+    redistributable: false
+    local_file: null
+    topics: [structured-output, validation, api-contracts]
+    checked: 2026-08-27
+
+  - id: owasp-genai-top-10-2026
+    title: OWASP Top 10 for Large Language Model Applications 2026
+    organization: OWASP Foundation
+    type: security-guidance
+    canonical_url: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+    redistributable: false
+    local_file: null
+    topics: [ai-security, prompt-injection, tool-security]
+    checked: 2026-08-27
+
+  - id: openai-api-docs
+    title: OpenAI API Documentation
+    organization: OpenAI
+    type: official-documentation
+    canonical_url: https://platform.openai.com/docs/
+    redistributable: false
+    local_file: null
+    topics: [model-apis, structured-output, tool-calling, streaming]
+    checked: 2026-08-27
+
+  - id: anthropic-api-docs
+    title: Anthropic API Documentation
+    organization: Anthropic
+    type: official-documentation
+    canonical_url: https://docs.anthropic.com/
+    redistributable: false
+    local_file: null
+    topics: [model-apis, tool-calling, streaming]
+    checked: 2026-08-27
+
+  - id: google-gemini-api-docs
+    title: Gemini API Documentation
+    organization: Google
+    type: official-documentation
+    canonical_url: https://ai.google.dev/gemini-api/docs
+    redistributable: false
+    local_file: null
+    topics: [model-apis, multimodal, structured-output, tool-calling]
+    checked: 2026-08-27
+
+  - id: docling
+    title: Docling
+    organization: Docling Project / LF AI & Data
+    type: github-repository
+    canonical_url: https://github.com/docling-project/docling
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [document-parsing, pdf, layout, ocr]
+    checked: 2026-08-27
+
+  - id: paddleocr
+    title: PaddleOCR
+    organization: PaddlePaddle
+    type: github-repository
+    canonical_url: https://github.com/PaddlePaddle/PaddleOCR
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [ocr, document-ai, layout, tables, vision-language-models]
+    checked: 2026-08-27
+
+  - id: unstructured
+    title: Unstructured
+    organization: Unstructured-IO
+    type: github-repository
+    canonical_url: https://github.com/Unstructured-IO/unstructured
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [document-etl, parsing, chunking]
+    checked: 2026-08-27
+
+  - id: faiss
+    title: Faiss
+    organization: Meta Fundamental AI Research
+    type: github-repository
+    canonical_url: https://github.com/facebookresearch/faiss
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [vector-search, ann, clustering, cpp, python]
+    checked: 2026-08-27
+
+  - id: pgvector
+    title: pgvector
+    organization: pgvector
+    type: github-repository
+    canonical_url: https://github.com/pgvector/pgvector
+    license: PostgreSQL
+    redistributable: false
+    local_file: null
+    topics: [postgresql, vector-search, hnsw, ivfflat]
+    checked: 2026-08-27
+
+  - id: qdrant
+    title: Qdrant
+    organization: Qdrant
+    type: github-repository
+    canonical_url: https://github.com/qdrant/qdrant
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [vector-database, hybrid-search, filtering]
+    checked: 2026-08-27
+
+  - id: beir
+    title: BEIR
+    organization: BEIR community
+    type: benchmark-repository
+    canonical_url: https://github.com/beir-cellar/beir
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [information-retrieval, evaluation, benchmark]
+    checked: 2026-08-27
+
+  - id: colpali
+    title: ColPali
+    organization: ILLUIN Technology
+    type: research-repository
+    canonical_url: https://github.com/illuin-tech/colpali
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [visual-document-retrieval, late-interaction, vlm]
+    checked: 2026-08-27
+
+  - id: colpali-paper
+    title: "ColPali: Efficient Document Retrieval with Vision Language Models"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2407.01449
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [visual-document-retrieval, late-interaction]
+    checked: 2026-08-27
+
+  - id: colbertv2-paper
+    title: "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2112.01488
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [information-retrieval, late-interaction]
+    checked: 2026-08-27
+
+  - id: pytorch
+    title: PyTorch
+    organization: PyTorch Foundation
+    type: github-repository
+    canonical_url: https://github.com/pytorch/pytorch
+    license: BSD-style
+    redistributable: false
+    local_file: null
+    topics: [python, cpp, tensors, deep-learning, training]
+    checked: 2026-08-27
+
+  - id: huggingface-transformers
+    title: Transformers
+    organization: Hugging Face
+    type: github-repository
+    canonical_url: https://github.com/huggingface/transformers
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [transformers, multimodal, model-definitions]
+    checked: 2026-08-27
+
+  - id: vllm
+    title: vLLM
+    organization: vLLM Project
+    type: github-repository
+    canonical_url: https://github.com/vllm-project/vllm
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [llm-inference, serving, kv-cache]
+    checked: 2026-08-27
+
+  - id: llama-cpp
+    title: llama.cpp
+    organization: ggml-org
+    type: github-repository
+    canonical_url: https://github.com/ggml-org/llama.cpp
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [cpp, local-inference, quantization]
+    checked: 2026-08-27
+
+  - id: openai-cookbook
+    title: OpenAI Cookbook
+    organization: OpenAI
+    type: github-repository
+    canonical_url: https://github.com/openai/openai-cookbook
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [python, model-apis, examples]
+    checked: 2026-08-27
+
+  - id: pydantic
+    title: Pydantic
+    organization: Pydantic
+    type: github-repository
+    canonical_url: https://github.com/pydantic/pydantic
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [python, validation, json-schema]
+    checked: 2026-08-27
+
+  - id: instructor
+    title: Instructor
+    organization: 567-labs
+    type: github-repository
+    canonical_url: https://github.com/567-labs/instructor
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [python, structured-output, validation]
+    checked: 2026-08-27
+
+  - id: pydantic-ai
+    title: PydanticAI
+    organization: Pydantic
+    type: github-repository
+    canonical_url: https://github.com/pydantic/pydantic-ai
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [python, agents, tools, mcp, evaluation]
+    checked: 2026-08-27
+
+  - id: original-rag-paper
+    title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+    type: paper
+    canonical_url: https://arxiv.org/abs/2005.11401
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, retrieval, generation]
+    checked: 2026-08-27
+
+  - id: self-rag-paper
+    title: "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2310.11511
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, adaptive-retrieval, self-reflection]
+    checked: 2026-08-27
+
+  - id: corrective-rag-paper
+    title: Corrective Retrieval Augmented Generation
+    type: paper
+    canonical_url: https://arxiv.org/abs/2401.15884
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, corrective-retrieval]
+    checked: 2026-08-27
+
+  - id: raptor-paper
+    title: "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2401.18059
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, hierarchical-retrieval, summarization]
+    checked: 2026-08-27
+
+  - id: microsoft-graphrag
+    title: GraphRAG
+    organization: Microsoft
+    type: research-repository
+    canonical_url: https://github.com/microsoft/graphrag
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [rag, graphs, knowledge-graphs]
+    checked: 2026-08-27
+
+  - id: llama-index
+    title: LlamaIndex
+    organization: LlamaIndex
+    type: github-repository
+    canonical_url: https://github.com/run-llama/llama_index
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [rag, agents, retrieval, document-processing]
+    checked: 2026-08-27
+
+  - id: ragflow
+    title: RAGFlow
+    organization: InfiniFlow
+    type: github-repository
+    canonical_url: https://github.com/infiniflow/ragflow
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, document-understanding, agents]
+    checked: 2026-08-27
+
+  - id: ragas
+    title: Ragas
+    organization: Exploding Gradients
+    type: github-repository
+    canonical_url: https://github.com/explodinggradients/ragas
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [rag, evaluation, agents]
+    checked: 2026-08-27
+
+  - id: react-paper
+    title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2210.03629
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [agents, reasoning, tool-use]
+    checked: 2026-08-27
+
+  - id: agentbench-paper
+    title: "AgentBench: Evaluating LLMs as Agents"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2308.03688
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [agents, evaluation, benchmarks]
+    checked: 2026-08-27
+
+  - id: osworld-paper
+    title: "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    type: paper
+    canonical_url: https://arxiv.org/abs/2404.07972
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [agents, computer-use, multimodal, evaluation]
+    checked: 2026-08-27
+
+  - id: mcp-specification
+    title: Model Context Protocol Specification 2026-07-28
+    organization: Model Context Protocol
+    type: specification
+    canonical_url: https://modelcontextprotocol.io/specification/2026-07-28/
+    redistributable: false
+    local_file: null
+    topics: [mcp, tools, interoperability, authorization]
+    checked: 2026-08-27
+
+  - id: mcp-python-sdk
+    title: MCP Python SDK
+    organization: Model Context Protocol
+    type: github-repository
+    canonical_url: https://github.com/modelcontextprotocol/python-sdk
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [mcp, python, tools, clients, servers]
+    checked: 2026-08-27
+
+  - id: mcp-typescript-sdk
+    title: MCP TypeScript SDK
+    organization: Model Context Protocol
+    type: github-repository
+    canonical_url: https://github.com/modelcontextprotocol/typescript-sdk
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [mcp, typescript, tools, clients, servers]
+    checked: 2026-08-27
+
+  - id: langgraph
+    title: LangGraph
+    organization: LangChain
+    type: github-repository
+    canonical_url: https://github.com/langchain-ai/langgraph
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [agents, workflows, durable-execution, python]
+    checked: 2026-08-27
+
+  - id: openai-agents-python
+    title: OpenAI Agents SDK for Python
+    organization: OpenAI
+    type: github-repository
+    canonical_url: https://github.com/openai/openai-agents-python
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [agents, python, tools, tracing, mcp]
+    checked: 2026-08-27
+
+  - id: smolagents
+    title: smolagents
+    organization: Hugging Face
+    type: github-repository
+    canonical_url: https://github.com/huggingface/smolagents
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [agents, python, code-agents, tools, mcp]
+    checked: 2026-08-27
+
+  - id: temporal
+    title: Temporal
+    organization: Temporal Technologies
+    type: github-repository
+    canonical_url: https://github.com/temporalio/temporal
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [workflows, durable-execution, distributed-systems]
+    checked: 2026-08-27
+
+  - id: google-sre
+    title: Site Reliability Engineering Resources
+    organization: Google
+    type: body-of-knowledge
+    canonical_url: https://sre.google/
+    redistributable: false
+    local_file: null
+    topics: [sre, slos, error-budgets, incident-response]
+    checked: 2026-08-27
+
+  - id: nist-ai-600-1
+    title: Artificial Intelligence Risk Management Framework Generative AI Profile
+    organization: NIST
+    type: risk-management-standard
+    canonical_url: https://doi.org/10.6028/NIST.AI.600-1
+    redistributable: false
+    local_file: null
+    topics: [ai-risk, governance, generative-ai]
+    checked: 2026-08-27
+
+  - id: opentelemetry-semconv
+    title: OpenTelemetry Semantic Conventions
+    organization: OpenTelemetry
+    type: specification
+    canonical_url: https://opentelemetry.io/docs/specs/semconv/
+    redistributable: false
+    local_file: null
+    topics: [observability, tracing, metrics, logs, genai]
+    checked: 2026-08-27
+
+  - id: opentelemetry-genai-semconv
+    title: OpenTelemetry Generative AI Semantic Conventions
+    organization: OpenTelemetry
+    type: emerging-specification
+    canonical_url: https://github.com/open-telemetry/semantic-conventions-genai
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [observability, genai, agents, mcp, tracing]
+    checked: 2026-08-27
+
+  - id: kubernetes-hpa
+    title: Kubernetes Horizontal Pod Autoscaling
+    organization: Kubernetes
+    type: official-documentation
+    canonical_url: https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/
+    redistributable: false
+    local_file: null
+    topics: [kubernetes, autoscaling, capacity]
+    checked: 2026-08-27
+
+  - id: kserve
+    title: KServe
+    organization: KServe / CNCF
+    type: github-repository
+    canonical_url: https://github.com/kserve/kserve
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [model-serving, kubernetes, inference, autoscaling]
+    checked: 2026-08-27
+
+  - id: litellm
+    title: LiteLLM
+    organization: BerriAI
+    type: github-repository
+    canonical_url: https://github.com/BerriAI/litellm
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [model-gateway, routing, providers, cost]
+    checked: 2026-08-27
+
+  - id: prometheus
+    title: Prometheus
+    organization: Prometheus / CNCF
+    type: github-repository
+    canonical_url: https://github.com/prometheus/prometheus
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [metrics, monitoring, alerting]
+    checked: 2026-08-27
+
+  - id: mlflow
+    title: MLflow
+    organization: LF AI and Data
+    type: github-repository
+    canonical_url: https://github.com/mlflow/mlflow
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [evaluation, tracing, mlops, genai]
+    checked: 2026-08-27
+
+  - id: nist-ai-100-2e2025
+    title: Adversarial Machine Learning — A Taxonomy and Terminology of Attacks and Mitigations
+    organization: NIST
+    type: security-taxonomy
+    canonical_url: https://doi.org/10.6028/NIST.AI.100-2e2025
+    redistributable: false
+    local_file: null
+    topics: [adversarial-ml, poisoning, evasion, privacy, misuse]
+    checked: 2026-08-27
+
+  - id: mitre-atlas
+    title: MITRE ATLAS
+    organization: MITRE
+    type: threat-knowledge-base
+    canonical_url: https://atlas.mitre.org/
+    redistributable: false
+    local_file: null
+    topics: [ai-security, threat-modeling, red-teaming, agents]
+    checked: 2026-08-27
+
+  - id: owasp-agentic-top-10-2026
+    title: OWASP Top 10 for Agentic Applications 2026
+    organization: OWASP GenAI Security Project
+    type: security-guidance
+    canonical_url: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+    redistributable: false
+    local_file: null
+    topics: [agent-security, excessive-agency, tools, identity]
+    checked: 2026-08-27
+
+  - id: iso-iec-42001
+    title: ISO/IEC 42001:2023 AI Management Systems
+    organization: ISO/IEC
+    type: management-system-standard
+    canonical_url: https://www.iso.org/standard/42001
+    redistributable: false
+    local_file: null
+    topics: [ai-governance, risk-management, assurance]
+    checked: 2026-08-27
+
+  - id: eu-ai-act-enforcement
+    title: EU AI Act Enforcement Framework
+    organization: European Commission
+    type: official-regulatory-guidance
+    canonical_url: https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act
+    redistributable: false
+    local_file: null
+    topics: [eu-ai-act, regulation, transparency, governance]
+    checked: 2026-08-27
+
+  - id: promptfoo
+    title: Promptfoo
+    organization: Promptfoo
+    type: github-repository
+    canonical_url: https://github.com/promptfoo/promptfoo
+    license: verify-at-source
+    redistributable: false
+    local_file: null
+    topics: [red-teaming, evaluation, genai-security]
+    checked: 2026-08-27
+
+  - id: garak
+    title: Garak
+    organization: NVIDIA
+    type: github-repository
+    canonical_url: https://github.com/NVIDIA/garak
+    license: Apache-2.0
+    redistributable: false
+    local_file: null
+    topics: [llm-security, vulnerability-scanning, red-teaming]
+    checked: 2026-08-27
+
+  - id: pyrit
+    title: PyRIT
+    organization: Microsoft
+    type: github-repository
+    canonical_url: https://github.com/Azure/PyRIT
+    license: MIT
+    redistributable: false
+    local_file: null
+    topics: [red-teaming, generative-ai, risk-identification]
+    checked: 2026-08-27

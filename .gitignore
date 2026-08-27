@@ -1,0 +1,14 @@
+.DS_Store
+.cache/
+site/
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+secrets*.yml
+secrets*.yaml
