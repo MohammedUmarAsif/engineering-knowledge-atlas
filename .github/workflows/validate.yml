@@ -11,11 +11,25 @@ jobs:
   repository-integrity:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
       - name: Validate internal links and topic metadata
         run: python scripts/validate_repository.py
-      - name: Validate Python examples
-        run: python -m compileall -q examples
+      - name: Execute Python examples
+        run: |
+          find examples -path '*/python/*.py' -print0 | while IFS= read -r -d '' example; do
+            python "$example" >/dev/null
+          done
+      - name: Compile C++ examples
+        run: |
+          find examples -path '*/cpp/*.cpp' -print0 | while IFS= read -r -d '' example; do
+            g++ -std=c++20 -fsyntax-only "$example"
+          done
+      - name: Install pinned documentation dependencies
+        run: python -m pip install "mkdocs==1.6.1" "mkdocs-material==9.7.7"
+      - name: Build documentation strictly
+        run: python scripts/docs.py build --strict

@@ -1,4 +1,54 @@
 resources:
+  - id: harvard-cs50-ai
+    title: CS50's Introduction to Artificial Intelligence with Python
+    organization: Harvard University
+    type: university-course
+    canonical_url: https://cs50.harvard.edu/ai/
+    redistributable: false
+    local_file: null
+    topics: [artificial-intelligence, search, uncertainty, machine-learning, python]
+    checked: 2026-08-27
+
+  - id: mit-course-6-3
+    title: Computer Science and Engineering (Course 6-3)
+    organization: Massachusetts Institute of Technology
+    type: university-curriculum
+    canonical_url: https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
+    redistributable: false
+    local_file: null
+    topics: [computer-science, systems, algorithms, software-engineering, ai]
+    checked: 2026-08-27
+
+  - id: mit-6-5840-2026
+    title: 6.5840 Distributed Systems — Spring 2026
+    organization: Massachusetts Institute of Technology
+    type: university-course
+    canonical_url: https://pdos.csail.mit.edu/6.5840/
+    redistributable: false
+    local_file: null
+    topics: [distributed-systems, fault-tolerance, consistency, replication]
+    checked: 2026-08-27
+
+  - id: mit-6-s191
+    title: 6.S191 Introduction to Deep Learning
+    organization: Massachusetts Institute of Technology
+    type: university-course
+    canonical_url: https://introtodeeplearning.com/
+    redistributable: false
+    local_file: null
+    topics: [deep-learning, neural-networks, implementation, ai]
+    checked: 2026-08-27
+
+  - id: oxford-cs-courses-2026-27
+    title: Computer Science Courses 2026–27
+    organization: University of Oxford Department of Computer Science
+    type: university-course-catalogue
+    canonical_url: https://www.cs.ox.ac.uk/teaching/courses/2026-2027/
+    redistributable: false
+    local_file: null
+    topics: [machine-learning, uncertainty, security, verification, databases]
+    checked: 2026-08-27
+
   - id: acm-cs2023
     title: Computer Science Curricula 2023
     organization: ACM/IEEE-CS/AAAI

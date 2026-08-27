@@ -6,7 +6,7 @@ The atlas uses:
 
 - ACM/IEEE-CS/AAAI CS2023 for durable computer-science coverage;
 - IEEE SWEBOK v4.0a for professional software-engineering coverage;
-- current Harvard and Oxford course material for academic depth and sequencing;
+- selected current Harvard, MIT and Oxford course material for academic depth and sequencing, with its influence and limits recorded in the [academic source map](academic-source-map.md);
 - official specifications and product documentation for changing implementation details;
 - peer-reviewed research and engineering postmortems for evidence and failure analysis.
 

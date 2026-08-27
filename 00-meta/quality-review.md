@@ -68,6 +68,20 @@ The Module 07 review checked both technical correctness and learning safety:
 
 The module was checked against NIST AI RMF and adversarial-ML guidance, MITRE ATLAS, the OWASP 2026 GenAI and agentic risk lists, ISO/IEC 42001, and official EU AI Act implementation material current on 2026-08-27. These sources provide complementary lenses; none is treated as a complete assurance argument.
 
+## Review record — v0.1.1 presentation
+
+The recruiter-facing presentation review applied the same evidence discipline used inside the modules:
+
+- completed, next, scaffolded and long-term work are visibly separated;
+- repository metrics are derived from the release contents and used as scope indicators, not as proof of mastery;
+- selected deep links let a reviewer inspect reasoning instead of relying on self-description;
+- personal goals explain prioritization without being presented as completed expertise;
+- Harvard, MIT and Oxford references link to an explicit source map that states their influence and limitations;
+- university references are not described as standards, affiliations, credentials or degree equivalence;
+- L0–L5 labels describe the demanded reasoning rather than claiming that every page is graduate or PhD level;
+- badges are limited to validation, release, licensing and review currency.
+- CI actions are pinned to reviewed release commits, and the validation badge now covers repository structure, executed Python examples, C++20 syntax compilation and a strict documentation build.
+
 ## Review discipline
 
 A passing validator establishes structural consistency, not truth. Current specifications, regulations, prices, model behavior, repository status, and tool APIs require source review at the time of study or implementation.
